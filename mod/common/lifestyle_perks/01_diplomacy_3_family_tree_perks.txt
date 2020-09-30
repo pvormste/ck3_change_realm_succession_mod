@@ -1,0 +1,27 @@
+﻿family_man_perk = {
+	lifestyle = diplomacy_lifestyle
+	tree = family
+	position = { 1 5 }
+	icon = trait_family_first
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = family_man_perk_male_name
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = family_man_perk_female_name
+			}
+			desc = family_man_perk_male_name
+		}
+	}
+	
+	parent = sound_foundations_perk
+	
+	effect = {
+		custom_tooltip = family_man_perk_additional_tooltip
+		add_trait_force_tooltip = family_first
+	}
+}
