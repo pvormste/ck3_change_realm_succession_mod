@@ -1,0 +1,11 @@
+change_realm_succession.1 = {
+    picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+
+    cooldown = { days = 5475 }
+
+    effect = {
+		custom_tooltip = change_realm_succession.1_effect_tooltip
+	}
+
+    ai_check_interval = 0
+}
