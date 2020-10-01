@@ -21,7 +21,7 @@
 	parent = sound_foundations_perk
 	
 	effect = {
-		custom_tooltip = family_man_perk_additional_tooltip
+		custom_tooltip = family_man_perk_change_realm_succession_tooltip
 		add_trait_force_tooltip = family_first
 	}
 }

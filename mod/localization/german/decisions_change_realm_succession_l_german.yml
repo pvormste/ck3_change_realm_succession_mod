@@ -1,6 +1,6 @@
 ﻿l_german:
   change_realm_succession.1:0 "Erbteilungsrecht ändern"
   change_realm_succession.1_desc:0 "Nutze deine diplomatischen Fähigkeiten um das Erbteilungsrecht zu ändern."
-  change_realm_succession.1_confirm:0 "Ich versuche es."
+  change_realm_succession.1_confirm:0 "Ich versuche es"
   change_realm_succession.1_tooltip:0 "Starte einen Versuch um das Erbteilungsrecht zu ändern."
   change_realm_succession.1_effect_tooltip:0 "Effect Tooltip."

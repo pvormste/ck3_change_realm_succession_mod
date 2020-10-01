@@ -1,11 +1,27 @@
-change_realm_succession.1 = {
+﻿change_realm_succession.1 = {
     picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 
-    cooldown = { days = 5475 }
+    #cooldown = { days = 5475 }
+
+    is_shown = {
+      has_trait = family_first
+    }
+
+    is_valid_showing_failures_only = {
+      is_available_adult_or_is_commanding = yes
+    }
+
+    is_valid = {
+      has_trait = family_first
+    }
+
+    cost = {
+      prestige = 1200
+    }
 
     effect = {
-		custom_tooltip = change_realm_succession.1_effect_tooltip
-	}
+      custom_tooltip = change_realm_succession.1_effect_tooltip
+    }
 
     ai_check_interval = 0
 }
