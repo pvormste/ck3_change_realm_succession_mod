@@ -4,4 +4,4 @@ tags={
 	"Character Focuses"
 }
 name="Change Realm Succession with Diplomacy"
-supported_version="1.1.1"
+supported_version="1.1.*"

@@ -21,6 +21,10 @@
 
     effect = {
       custom_tooltip = change_realm_succession_decision_effect_tooltip
+      trigger_event = {
+        id = change_realm_succession_event.1
+        days = 2
+      }
     }
 
     ai_check_interval = 0

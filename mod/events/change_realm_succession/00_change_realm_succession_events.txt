@@ -1,0 +1,34 @@
+change_realm_succession_event.1 = {
+    title = change_realm_succession_event.1.t
+    desc = change_realm_succession_event.1.desc
+
+    theme = "family"
+    left_portrait = {
+		character = ROOT
+		animation = personality_honorable
+	}
+
+    option = {
+        name = change_realm_succession_event.1.a
+    }
+
+    option = {
+        name = change_realm_succession_event.1.b
+    }
+
+    option = {
+        name = change_realm_succession_event.1.c
+    }
+
+    option = {
+        name = change_realm_succession_event.1.d
+    }
+
+    option = {
+        name = change_realm_succession_event.1.e
+    }
+
+    option = {
+        name = change_realm_succession_event.1.f
+    }
+}
