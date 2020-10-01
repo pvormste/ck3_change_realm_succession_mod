@@ -1,4 +1,4 @@
 ﻿change_realm_succession = {
-	alias = { change_realm_succession.1 }
+	alias = { change_realm_succession_decision }
 	parent = decision
 }
