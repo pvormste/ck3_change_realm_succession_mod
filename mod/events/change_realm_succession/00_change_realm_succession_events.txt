@@ -1,3 +1,5 @@
+﻿namespace = change_realm_succession_event
+
 change_realm_succession_event.1 = {
     title = change_realm_succession_event.1.t
     desc = change_realm_succession_event.1.desc
@@ -10,31 +12,16 @@ change_realm_succession_event.1 = {
 
     option = {
         name = change_realm_succession_event.1.a
-        add_realm_law_skip_effects = confederate_partition_succession_law
-    }
-
-    option = {
-        name = change_realm_succession_event.1.b
-        add_realm_law_skip_effects = partition_succession_law
-    }
-
-    option = {
-        name = change_realm_succession_event.1.c
-        add_realm_law_skip_effects = high_partition_succession_law
-    }
-
-    option = {
-        name = change_realm_succession_event.1.d
         add_realm_law_skip_effects = single_heir_succession_law
     }
 
     option = {
-        name = change_realm_succession_event.1.e
+        name = change_realm_succession_event.1.b
         add_realm_law_skip_effects = single_heir_succession_law_youngest
     }
 
     option = {
-        name = change_realm_succession_event.1.f
+        name = change_realm_succession_event.1.c
         add_realm_law_skip_effects = single_heir_dynasty_house
     }
 }

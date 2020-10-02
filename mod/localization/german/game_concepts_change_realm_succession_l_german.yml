@@ -1,3 +1,6 @@
 ﻿l_german:
+  game_concept_change_realm_partition:0 "Erbteilungsrecht ändern"
+  game_concept_change_realm_partition_desc:0 "Eine [decision|E] mit der man mittels dem Einsatz von [prestige|E] eine Änderung des Erbteilungsrecht anstoßen kann."
+
   game_concept_change_realm_succession:0 "Nachfolgerecht ändern"
   game_concept_change_realm_succession_desc:0 "Eine [decision|E] mit der man mittels dem Einsatz von [prestige|E] eine Änderung des Nachfolgerechts anstoßen kann."

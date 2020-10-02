@@ -1,4 +1,9 @@
-﻿change_realm_succession = {
+﻿change_realm_partition = {
+	alias = { change_realm_partition_decision }
+	parent = decision
+}
+
+change_realm_succession = {
 	alias = { change_realm_succession_decision }
 	parent = decision
 }

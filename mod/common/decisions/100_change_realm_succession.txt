@@ -1,7 +1,7 @@
-﻿change_realm_succession_decision = {
+﻿change_realm_partition_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 
-    #cooldown = { days = 5475 }
+    #cooldown = { days = 9125 }
 
     is_shown = {
       has_trait = family_first
@@ -13,6 +13,44 @@
 
     is_valid = {
       has_trait = family_first
+    }
+
+    cost = {
+      prestige = 1200
+    }
+
+    effect = {
+      custom_tooltip = change_realm_partition_decision_effect_tooltip
+      trigger_event = {
+        id = change_realm_partition_event.1
+        days = 2
+      }
+    }
+
+    ai_check_interval = 0
+}
+
+change_realm_succession_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+
+    #cooldown = { days = 9125 }
+
+    is_shown = {
+      has_trait = family_first
+    }
+
+    is_valid_showing_failures_only = {
+      is_available_adult_or_is_commanding = yes
+      culture = {
+        has_innovation = innovation_hereditary_rule
+      }
+    }
+
+    is_valid = {
+      has_trait = family_first
+      culture = {
+        has_innovation = innovation_hereditary_rule
+      }
     }
 
     cost = {

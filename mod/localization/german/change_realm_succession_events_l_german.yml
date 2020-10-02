@@ -1,9 +1,12 @@
 ﻿l_german:
+  change_realm_partition_event.1.t:0 "Erbteilungsrecht ändern"
+  change_realm_partition_event.1.desc:0 "Bla bla bla"
+  change_realm_partition_event.1.a:0 "... Bundteilung"
+  change_realm_partition_event.1.b:0 "... Erbteilung"
+  change_realm_partition_event.1.c:0 "... Großteilung"
+
   change_realm_succession_event.1.t:0 "Nachfolgerecht ändern"
   change_realm_succession_event.1.desc:0 "Bla bla bla"
-  change_realm_succession_event.1.a:0 "... Bundteilung"
-  change_realm_succession_event.1.b:0 "... Erbteilung"
-  change_realm_succession_event.1.c:0 "... Großteilung"
-  change_realm_succession_event.1.d:0 "... Primogenitur"
-  change_realm_succession_event.1.e:0 "... Ultimogenitur"
-  change_realm_succession_event.1.f:0 "... Haus-Senex"
+  change_realm_succession_event.1.a:0 "... Primogenitur"
+  change_realm_succession_event.1.b:0 "... Ultimogenitur"
+  change_realm_succession_event.1.c:0 "... Haus-Senex"

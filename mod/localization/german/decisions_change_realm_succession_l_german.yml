@@ -1,4 +1,10 @@
 ﻿l_german:
+  change_realm_partition_decision:0 "Erbteilungsrecht ändern"
+  change_realm_partition_decision_desc:0 "Nutze deine diplomatischen Fähigkeiten um das Erbteilungsrecht zu ändern."
+  change_realm_partition_decision_confirm:0 "Ich versuche es"
+  change_realm_partition_decision_tooltip:0 "Starte einen Versuch um das Erbteilungsrecht zu ändern."
+  change_realm_partition_decision_effect_tooltip:0 "Effect Tooltip."
+
   change_realm_succession_decision:0 "Nachfolgerecht ändern"
   change_realm_succession_decision_desc:0 "Nutze deine diplomatischen Fähigkeiten um das Nachfolgerecht zu ändern."
   change_realm_succession_decision_confirm:0 "Ich versuche es"
