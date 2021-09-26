@@ -1,7 +1,7 @@
 ﻿change_realm_partition_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 
-    #cooldown = { days = 9125 }
+    cooldown = { days = 9125 }
 
     is_shown = {
       has_trait = family_first
@@ -9,10 +9,16 @@
 
     is_valid_showing_failures_only = {
       is_available_adult_or_is_commanding = yes
+      culture = {
+        has_innovation = innovation_gavelkind
+      }
     }
 
     is_valid = {
       has_trait = family_first
+      culture = {
+        has_innovation = innovation_gavelkind
+      }
     }
 
     cost = {
@@ -33,7 +39,7 @@
 change_realm_succession_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 
-    #cooldown = { days = 9125 }
+    cooldown = { days = 9125 }
 
     is_shown = {
       has_trait = family_first
